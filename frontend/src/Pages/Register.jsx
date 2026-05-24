@@ -28,7 +28,7 @@ function Register(){
     try{
 
       await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "http://bda-crm-project.onrender.com/api/auth/register",
         formData
       );
 
