@@ -23,7 +23,7 @@ function Leads(){
   const fetchLeads = async()=>{
 
     const res = await axios.get(
-      "http://bda-crm-project.onrender.com/api/leads"
+      "https://bda-crm-project.onrender.com/api/leads"
     );
 
     setLeads(res.data);
@@ -44,7 +44,7 @@ function Leads(){
     e.preventDefault();
 
     await axios.post(
-      "http://bda-crm-project.onrender.com/api/leads",
+      "https://bda-crm-project.onrender.com/api/leads",
       formData
     );
 
@@ -68,7 +68,7 @@ function Leads(){
   const deleteLead = async(id)=>{
 
     await axios.delete(
-      `http://bda-crm-project.onrender.com/api/leads/${id}`
+      `https://bda-crm-project.onrender.com/api/leads/${id}`
     );
 
     fetchLeads();

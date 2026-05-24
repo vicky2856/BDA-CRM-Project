@@ -17,7 +17,7 @@ function Dashboard(){
     try{
 
       const res = await axios.get(
-        "http://bda-crm-project.onrender.com/api/leads"
+        "https://bda-crm-project.onrender.com/api/leads"
       );
 
       setLeads(res.data);

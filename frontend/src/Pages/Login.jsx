@@ -27,7 +27,7 @@ function Login(){
     try{
 
       const res = await axios.post(
-        "http://bda-crm-project.onrender.com/api/auth/login",
+        "https://bda-crm-project.onrender.com/api/auth/login",
         formData
       );
 
