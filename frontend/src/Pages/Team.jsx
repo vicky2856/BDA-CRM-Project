@@ -1,4 +1,4 @@
-import Sidebar from "../components/SideBar";
+import Sidebar from "../components/df";
 import { MdPerson, MdTrendingUp, MdCheckCircle } from "react-icons/md";
 
 function Team(){
