@@ -1,7 +1,7 @@
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Login from "./Pages/Login";
 import Register from  "./Pages/Register";
-import Dashboard from "./Pages/Dashboard";
+import Dashboard from "./Pages/DashBoard";
 import Leads from "./Pages/Leads";
 import Team from "./Pages/Team";
 function App() {
