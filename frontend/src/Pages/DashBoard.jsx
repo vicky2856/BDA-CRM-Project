@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/SideBar";
 import { Link } from "react-router-dom";
 import { MdTrendingUp, MdCheckCircle, MdHourglassEmpty, MdCancel } from "react-icons/md";
 
